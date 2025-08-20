@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+    --font-primary: "Poppins", "sans-serif"
+    --color-primary: #333333;
+   
+}
+
+.active span:nth-of-type(1) {
+    transform-origin: center;
+    transform: rotate(45deg) translateY(10px);
+   
+}
+
+.active span:nth-of-type(3) {
+    transform-origin: center;
+    transform: rotate(-45deg) translateY(-11px);
+  
+}
+
+.active span:nth-of-type(2) {
+    opacity: 0;
+
+}
+
+.contact::after {
+    content: '';
+    width: 25%;
+    height: 5px;
+    background-color: rgb(46, 145, 46);
+    display: block;
+}
+
+.scrollbar-hide {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
