@@ -1,9 +1,12 @@
 import { shortServices } from "../Data/servicesDataSection.js";
 import { Link } from "react-router-dom";
+import ScrollReveal from "../components/ScrollReveal";
 
 export default function ShortServicesOverview() {
   return (
+    <ScrollReveal direction='right' delay={.5}>
     <section className="bg-gray-50 py-12">
+
       <div className="max-w-6xl mx-auto px-4 text-center">
         <h2 className="text-3xl font-bold text-gray-800 mb-3 text-shadow-lg"> Our Services</h2>
         <p className="text-gray-600 mb-10">How we help you move faster in real estate.</p>
@@ -35,5 +38,6 @@ export default function ShortServicesOverview() {
         </div>
       </div>
     </section>
+    </ScrollReveal>
   );
 }

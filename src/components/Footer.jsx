@@ -30,9 +30,9 @@ export default function Footer () {
                 </div>
                 <div className='flex flex-col gap-4'>
                     <h3 className='font-bold'>Contact</h3>
-                    <p>+234 020 123 4567</p>
-                    <p>example@gmail.com</p>
-                    <p>123 New Horizon surulere Lagos</p>
+                    <p>+234 907 700 2261</p>
+                    <p>gbolahanusman533@gmail.com</p>
+                    <p>place a Call or text</p>
                 </div>
                 <div className='flex flex-col gap-4'>
                     <h3 className='font-bold'>Get the latest information</h3>

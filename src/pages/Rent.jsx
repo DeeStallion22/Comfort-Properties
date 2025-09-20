@@ -2,13 +2,13 @@ import { useState } from 'react';
 import RentPropertyCard from '../components/RentPropertyCard'
 import Testimonials from '../components/Testimonial.jsx';
 import CallToAction from "../components/CallToAction.jsx";
+import House from '../assets/real-estate-photo.png'
 
 export default function Rent () {
 
    const rentproperties = [
     {
-      image:
-        'https://images.propertypro.ng/large/big-converted-studio-apartment-5dycRLygqwK1707zjMbb.jpg',
+      image: House,
       title: 'Big converted Studio apartment',
       price: '2,500,000',
       address: 'Grace Court In Royal Prime Estate Lekki Phase 2 Lekki Lagos',
@@ -22,8 +22,7 @@ export default function Rent () {
 
      
     {
-      image:
-        'https://images.propertypro.ng/large/3-bedroom-apartments-f-LDiv4-1690156.jpeg',
+      image: House,
       title: '3 Bedroom Apartment',
       price: '35,000,000',
       address: ' Bourdillon Ikoyi Lagos',
@@ -35,8 +34,7 @@ export default function Rent () {
         'All rooms ensuite, swimming pool, ample parking, elevator',
     },
     {
-      image:
-        'https://images.propertypro.ng/large/Wgymg-very-specious-studio-mini-apartment-with-big-kitchen-Goe7RdRgaBsTY4zMVYq1.jpeg',
+      image: House,
       title: '1 bedroom apartment',
       price: '3,650,000',
       address: ' Lekki Phase 1 Lekki Lagos',
@@ -50,8 +48,7 @@ export default function Rent () {
 
 
     {
-      image:
-        'https://images.propertypro.ng/large/FoDWs-brand-new-standard-service-2-bedroom-apartment-YWnhchhzBtgeAv7RaPpE.jpeg',
+      image: House,
       title: '2 bedroom apartment @ osapa London',   
       price: '8,000,000',
       address: ' Osapa London Lekki Lagos',
@@ -65,8 +62,7 @@ export default function Rent () {
 
 
     {
-      image:
-        'https://images.propertypro.ng/large/GJp65-very-standard-2-bedroom-apartment-qNjkjOuvFZTeg7RYvTuv.jpeg',
+      image: House,
       title: 'Very Standard 2 Bedroom Apartment ',
       price: '5,000,000',
       address: ' Chevron Lekki Lagos',
@@ -80,8 +76,7 @@ export default function Rent () {
 
 
      {
-      image:
-        'https://images.propertypro.ng/large/luxury-furnished-5-bedroom-fully-detached-duplex-bq-KJqkkedQBAul0j2Q7FkO.jpeg',
+      image:  House,
       title: 'Luxury Furnished 5 Bedroom Fully Detached Duplex + Bq ',
       price: '30,000,000',
       address: ' Osapa London Lekki Lagos',
@@ -95,8 +90,7 @@ export default function Rent () {
 
 
      {
-      image:
-        'https://images.propertypro.ng/large/spacious-4-bedroom-semi-detached-duplex-with-bq-C1KIejM5M3dc34lLx3zY.jpg',
+      image: House,
       title: '4 bedroom semi detached Duplex With Bq ',
       price: '16,000,000',
       address: '  Ikate Lekki Lagos',
@@ -110,8 +104,7 @@ export default function Rent () {
 
 
      {
-      image:
-        'https://images.propertypro.ng/large/4-bedroom-duplex-yRA3h-1690161.png',
+      image: House,
       title: '4 Bedroom Duplex ',
       price: '10,000,000',
       address: '  Ogunlana Surulere Lagos',
@@ -125,8 +118,7 @@ export default function Rent () {
 
 
      {
-      image:
-        'https://images.propertypro.ng/large/well-built-4-bed-semi-detached-with-spacious-rooms-cyFrK2L15AxRNSXsralM.jpg',
+      image: House,
       title: 'Well Built 4 Bed Semi Detached With Spacious Rooms',
       price: '9,000,000',
       address: ' Chevron Lekki Lagos',
@@ -140,8 +132,7 @@ export default function Rent () {
 
 
      {
-      image:
-        'https://images.propertypro.ng/large/4-bedroom-semi-detached-duplex-with-en-suite-rooms-ggl9ilHW5aljxXQbVjqj.jpg',
+      image: House,
       title: '4 Bedroom Semi Detached Duplex',
       price: '8,500,000',
       address: ' Ikota Lekki Lagos',
@@ -194,7 +185,7 @@ export default function Rent () {
 
 
       <div className='absolute grid place-items-center min-h-screen inset-7 md:inset-0 top-[-28px] md:top-10'>
-        <form action="" className='grid gap-3 max-w-[70rem] w-full p-6 rounded-lg shadow grid-cols-1 md:grid-cols-3'>
+        <form action="" className='grid gap-3 max-w-[70rem] w-full p-6 rounded-lg grid-cols-1 md:grid-cols-3'>
    
         <label htmlFor=""
         className=' text-left w-full flex flex-col md:w-full text-gray-100'>Search property :
@@ -248,6 +239,9 @@ export default function Rent () {
 
         </form>
       </div>
+    </div>
+    <div className=' md:w-1/3 md:ml-[28rem] animate-bounce bg-gray-200 flex items-center justify-center font-bold text-2xl py-5  border-none shadow-lg rounded-lg mx-15 m-5 mt-10 '>
+      Properties for rent
     </div>
 
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6">

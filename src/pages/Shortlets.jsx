@@ -2,6 +2,7 @@
 import RentPropertyCard from "../components/RentPropertyCard";
 import CallToAction from "../components/CallToAction.jsx";
 import { useState } from "react";
+import House from '../assets/real-estate-photo.png'
 
 
 
@@ -10,7 +11,7 @@ import { useState } from "react";
 const shortletProps = [
 
 {
-  image : 'https://images.propertypro.ng/large/2-bedroom-executive-suite-eM3LsPapD9iBHt1iQ8uG.jpeg',
+  image : House,
   title : '2 Bedroom Executive Suite',
   price :'160,000',
   id : 1,
@@ -22,7 +23,7 @@ const shortletProps = [
 
 
 {
-  image : 'https://images.propertypro.ng/large/three-bedroom-apartment-mplJRgmBYYTJ4tvriaYW.jpg',
+  image : House,
   title : '3 Bedroom Apartment',
   price : '160,000',
   id : 2,
@@ -32,7 +33,7 @@ const shortletProps = [
 },
 
 {
-  image : 'https://images.propertypro.ng/large/two-bedroom-apartment-XeMfUI4OfxlixjvNSuTy.jpg',
+  image : House,
   title : '2 Bedroom Apartment',
   price : '210,000',
   id : 3,
@@ -42,7 +43,7 @@ const shortletProps = [
 },
 
 {
-  image : 'https://images.propertypro.ng/large/beautiful-2-bedroom-apartment-f4SMXrb1N97uJxnIH26q.jpg',
+  image : House,
   title : '2 Bedroom Apartment',
   price : '155,000',
   id : 4 ,
@@ -52,7 +53,7 @@ const shortletProps = [
 },
 
 {
-  image : 'https://images.propertypro.ng/large/three-bedroom-apartment-mplJRgmBYYTJ4tvriaYW.jpg',
+  image : House,
   title : '3 Bedroom Apartment',
   price : '160,000',
   id : 5 ,
@@ -62,7 +63,7 @@ const shortletProps = [
 },
 
 {
-  image : 'https://images.propertypro.ng/large/five-bedroom-apartment-xMKwBMDRjc6F88AWcfX6.jpg',
+  image : House,
   title : '5 Bedroom Apartment',
   price : '265,000',
   id : 6 ,
@@ -72,7 +73,7 @@ const shortletProps = [
 },
 
 {
-  image : 'https://images.propertypro.ng/large/luxury-2bed-shortlet-mende-maryland-2VEfzGnrYARGQJIW5EOi.jpg',
+  image : House,
   title : '2 Bedroom Apartment',
   price : '125,000',
   id : 7,
@@ -82,7 +83,7 @@ const shortletProps = [
 },
 
 {
-  image : 'https://images.propertypro.ng/large/1-bed-duplex-shortlet-ajah-by-lbs-ucRV6zpFRV2NF6KMvVpX.jpg',
+  image : House,
   title : '1 Bed Duplex Shortlet Ajah By Lbs',
   price : '65,000',
   id : 8 ,
@@ -92,7 +93,7 @@ const shortletProps = [
 },
 
 {
-  image : 'https://images.propertypro.ng/large/luxury-massive-4bed-duplex-apartment-oniru-v-i-0fLAXyBtoNjNmNR5TIUy.jpg',
+  image : House,
   title : 'Luxury Massive 4bed Duplex Apartment Oniru V I',
   price : '350,000',
   id : 9,
@@ -102,7 +103,7 @@ const shortletProps = [
 },
 
 {
-  image : 'https://images.propertypro.ng/large/executive-3-bedroom-apartment-UwHsOrWKyWyVaj550zyx.jpg',
+  image : House,
   title : 'Executive 3 Bedroom Apartment',
   price : '170,000',
   id : 10,
@@ -169,6 +170,10 @@ const shortletProps = [
             </select>
         </label>
     </form>
+    </div>
+
+    <div className='  animate-bounce bg-gray-200 flex items-center justify-center font-bold text-2xl py-5 border-none shadow-lg rounded-lg mx-15 m-5 mt-10 md:w-1/3 md:ml-[28rem]'>
+      Shortlet apartment
     </div>
 
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-4 mt-8">

@@ -2,6 +2,7 @@ import User from '../assets/user.svg'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import ScrollReveal from "../components/ScrollReveal";
 
 
 export default function Testimonial() {
@@ -35,6 +36,7 @@ export default function Testimonial() {
   };
 
   return (
+    <ScrollReveal direction='up'  >
     <section className=" bg-gray-100 border-none my-[2rem] rounded-[1rem] py-12 m-[1rem] px-4">
         <h2 className="text-xl text-center ">Our Testimonials</h2>
       <h2 className="text-3xl font-bold text-center mb-10">What Our Client say about us </h2>
@@ -67,5 +69,6 @@ export default function Testimonial() {
         </Slider>
       </div>
     </section>
+    </ScrollReveal>
   );
 }
